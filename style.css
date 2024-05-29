@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    background-color:#3700D3;
+}
+
+nav{
+    margin-top:50px;
+    height: 40px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+justify-content: space-around;
+padding-top: 23px;
+padding-left: 10%;
+padding-right: 10%;
+color:lightblue;
+
+background: #1C6A7B;
+}
+
+.i{/* АКЦІЇ */
+
+position: absolute;
+width: 165px;
+height: 75px;
+left: 88px;
+top: 110px;
+color:lightblue;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 75px;
+/* identical to box height */
+
+
+
+}
+.n{/* Rectangle 2 */
+
+position: absolute;
+width: 300px;
+height: 300px;
+right: 50px;
+/* left: 480px; */
+top:130px;
+
+background: url(image.png);
+}
+.j{/* Тільки сьогодні супер ціна на ці товари */
+
+position: absolute;
+width: 329px;
+height: 54px;
+left: 88px;
+top: 220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color:lightblue;
+
+}
+.c{/* детальніше */
+text-align: center;
+position: absolute;
+padding: 10px 50px;
+left: 49px;
+top: 347px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: lightblue;
+
+background: #0076E2;
+
+
+}
+.h{/* Меню */
+
+position: absolute;
+/* width: 68px;
+height: 28px; */
+left: 302px;
+top: 346px;
+padding: 10px 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color:lightblue;
+text-align: center;
+background: #0076E2;
+}
+h2{
+
+    /* техніка */
+
+position: absolute;
+width: 162px;
+height: 56px;
+margin-left: 40%;
+/* left: 537px; */
+top: 424px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color:lightblue;
+
+
+}
+.name2{
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    top: 560px;
+    margin: 20px;
+    transition: 1s;
+}
+.img_l{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.head_text{
+    font-size: 30px;
+}
+
+.name3{
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    top: 900px;
+    margin: 20px;
+    transition: 1s;
+}
+.name4{
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    top: 1240px;
+    margin: 20px;
+    transition: 1s;
+}
+footer{
+    position: absolute;
+    top: 1550px;
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    color:lightblue;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+.ftr_img{
+    float: right;
+    margin-left: 300px;
+}
+nav a:hover{
+    color:white;
+    transition: 1s;
+}
+.c:hover{color:#ffffff; transition: 1s;}
+.h:hover{color: white; transition: 1s;}
+.head_text:hover{
+    color: #0076E2;
+    font-size:30px;
+    transition: 1s;
+}
+.img_l:hover{
+    opacity:0.5;
+    transition: 1s;
+}
+
+.name2:hover, .name3:hover, .name4:hover{
+    border: 2px solid white;
+    padding: 20px;
+    transition: 1s;
+}
+.byi{
+    padding: 10px 30px;
+    width: 50px;
+    background-color: #0076E2;
+}
+.byi:hover{
+    background-color: white;
+    color: #0076E2;
+    transition: 1s;
+}
